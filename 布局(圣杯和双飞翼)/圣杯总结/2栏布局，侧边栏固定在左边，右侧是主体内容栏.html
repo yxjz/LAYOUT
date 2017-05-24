@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*.layout:after,.layout:before{
+				clear: both;
+				content: "";
+				display: table;
+			}*/
+			.layout{
+				padding-left: 210px;
+			}
+			.layout-aside,.layout-main{
+				float: left;
+				
+			}
+			.layout-main{
+				width: 100%;
+				background: yellow;
+			}
+			.layout-aside{
+				width: 200px;
+				background: green;
+				margin-left: -210px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="layout">
+			<div class="layout-aside">
+				我是侧边栏。我是侧边栏。我是侧边栏。我是侧边栏。我是侧边栏。我是侧边栏。我是侧边栏。
+			</div>
+			<div class="layout-main">
+				我是主要内容，栏宽度自适应。
+			</div>
+		</div>
+	</body>
+</html>

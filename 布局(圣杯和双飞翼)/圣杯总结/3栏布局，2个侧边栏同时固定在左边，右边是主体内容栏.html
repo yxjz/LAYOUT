@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.layout{
+				padding-left: 420px;
+				
+			}
+			.layout-main,.layout-aside{
+				float: left;
+			}
+			.layout-main{
+				width: 100%;
+				background: gold;
+			}
+			.layout-aside-right{
+				width: 200px;
+				background: green;
+				margin-left: -210px;
+			}
+			.layout-aside-left{
+				width: 200px;
+				background: red;
+				margin-left: -420px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="layout">
+		    <aside class="layout-aside layout-aside-left">左侧1边栏宽度固定</aside>
+		    <aside class="layout-aside layout-aside-right">左侧2边栏宽度固定</aside>
+		    <div class="layout-main">主内容栏宽度自适应</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		  .layout:after, .layout:before {
+        clear: both;
+        content: " ";
+        display: table;
+    }
+    .layout {
+        padding-right: 420px;
+    }
+    .layout-main {
+        width: 100%;
+        float: left;
+        background: yellow;
+    }
+    .layout-aside {
+        width: 200px;
+        float: right;
+        background: red;
+    }
+    .layout-aside-first {
+        margin-right: -210px;
+    }
+    .layout-aside-second {
+        margin-right: -420px;
+    }
+</style>
+	</head>
+	<body>
+		<div class="layout">
+			<div class="layout-main">主内容栏宽度自适应</div>
+		    <aside class="layout-aside layout-aside-first">右侧1边栏宽度固定,右侧1边栏宽度固定右侧1边栏宽度固定右侧1边栏宽度固定右侧1边栏宽度固定右侧1边栏宽度固定右侧1边栏宽度固定</aside>
+		    <aside class="layout-aside layout-aside-second">右侧2边栏宽度固定</aside>
+		</div>
+	</body>
+</html>
